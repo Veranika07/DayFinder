@@ -37,6 +37,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B60C66429F442C100E8439C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4BB21A5129E6D8E000A9F827 /* AppDelegate.swift */,
+				4BB21A5329E6D8E000A9F827 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4B60C66529F442DA00E8439C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BB21A5529E6D8E000A9F827 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4BB21A4529E6D8E000A9F827 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +73,22 @@
 		4BB21A5029E6D8E000A9F827 /* DayFinder */ = {
 			isa = PBXGroup;
 			children = (
-				4BB21A5129E6D8E000A9F827 /* AppDelegate.swift */,
-				4BB21A5329E6D8E000A9F827 /* SceneDelegate.swift */,
-				4BB21A5529E6D8E000A9F827 /* ViewController.swift */,
-				4BB21A5729E6D8E000A9F827 /* Main.storyboard */,
+				4B60C66429F442C100E8439C /* AppDelegate */,
+				4B60C66529F442DA00E8439C /* Controllers */,
+				4BB21A6529E6DB1700A9F827 /* View */,
 				4BB21A5A29E6D8E400A9F827 /* Assets.xcassets */,
-				4BB21A5C29E6D8E400A9F827 /* LaunchScreen.storyboard */,
 				4BB21A5F29E6D8E400A9F827 /* Info.plist */,
 			);
 			path = DayFinder;
+			sourceTree = "<group>";
+		};
+		4BB21A6529E6DB1700A9F827 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BB21A5729E6D8E000A9F827 /* Main.storyboard */,
+				4BB21A5C29E6D8E400A9F827 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosbootcamp.DayFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -327,7 +351,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosbootcamp.DayFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
